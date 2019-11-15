@@ -30,7 +30,10 @@ export interface HtmlDataSlot extends HtmlDataMember {}
 
 export interface HtmlDataEvent extends HtmlDataMember {}
 
-export interface HtmlDataCssProperty extends HtmlDataMember {}
+export interface HtmlDataCssProperty extends HtmlDataMember {
+	// Suggested fields:
+	type?: string;
+}
 
 export interface HtmlDataCssPart extends HtmlDataMember {}
 
