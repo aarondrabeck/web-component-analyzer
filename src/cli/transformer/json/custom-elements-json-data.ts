@@ -18,6 +18,7 @@ export interface HtmlDataMember {
 	// Suggested fields:
 	jsDoc?: string;
 	type?: any;
+	attribute?: string;
 	reflect?: boolean;
 }
 

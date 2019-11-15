@@ -140,6 +140,7 @@ function componentMemberToHtmlDataProperty(member: ComponentMember, checker: Typ
 				name: member.propName,
 				reflect: member.reflect,
 				default: member.default,
+				attribute: member.attrName,
 				description: getDescriptionFromJsDoc(member.jsDoc),
 				jsDoc: getJsDocTextFromJsDoc(member.jsDoc),
 				type: getJsDocTypeFromType(member.type, checker)
